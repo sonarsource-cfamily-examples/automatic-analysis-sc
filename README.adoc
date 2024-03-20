@@ -1,3 +1,11 @@
+= C++ example project scanned on SonarCloud using Automatic Analysis
+// URIs:
+:uri-qg-status: https://sonarcloud.io/dashboard?id=sonarsource-cfamily-examples_automatic-analysis-sc
+:img-qg-status: https://sonarcloud.io/api/project_badges/measure?project=sonarsource-cfamily-examples_automatic-analysis-sc&metric=alert_status
+
+C & C++ automatic analysis does not have any toolchain or project structural requirements. The code in this repository is analyzed without any CI pipeline
+configured.
+
 = Code Description
 
 An example of a flawed C++ code. The https://github.com/sonarsource-cfamily-examples/code[code repository] is meant to be compiled with different build systems using different CI pipelines on Linux, macOS, and Windows.
