@@ -2,13 +2,24 @@
 // URIs:
 :uri-qg-status: https://sonarcloud.io/dashboard?id=sonarsource-cfamily-examples_automatic-analysis-sc
 :img-qg-status: https://sonarcloud.io/api/project_badges/measure?project=sonarsource-cfamily-examples_automatic-analysis-sc&metric=alert_status
+:img-lines-of-code: https://sonarcloud.io/api/project_badges/measure?project=sonarsource-cfamily-examples_automatic-analysis-sc&metric=ncloc
+
+image:{img-qg-status}[Quality Gate Status,link={uri-qg-status}]
+image:{img-lines-of-code}[Lines of Code, link={uri-build-status}]
 
 C & C++ automatic analysis does not have any toolchain or project structural requirements. The code in this repository is analyzed without any CI pipeline
 configured.
 
+https://github.com/sonarsource-cfamily-examples/automatic-analysis-sc/assets/117176040/7fcd5855-53b0-49f9-b2ab-5becf72018e7
+
+
+= Documentation
+
+- https://docs.sonarsource.com/sonarcloud/advanced-setup/automatic-analysis/#automatic-analysis-for-c-and-c-projects-[Automatic analysis for C and C++ projects]
+
 = Code Description
 
-An example of a flawed C++ code. The https://github.com/sonarsource-cfamily-examples/code[code repository] is meant to be compiled with different build systems using different CI pipelines on Linux, macOS, and Windows.
+An example of a flawed C++ code. The https://github.com/sonarsource-cfamily-examples/code[code repository] can be https://github.com/sonarsource-cfamily-examples/automatic-analysis-sc[analyzed automatically], but it can also be compiled with different build systems using different CI pipelines on Linux, macOS, and Windows.
 
 The https://github.com/sonarsource-cfamily-examples/code[code repository] is forked into other repositories in https://github.com/sonarsource-cfamily-examples[this collection] to add a specific build system, platform, and CI.
 The downstream repositories are analyzed either with https://www.sonarqube.org/[SonarQube] or https://sonarcloud.io/[SonarCloud].
